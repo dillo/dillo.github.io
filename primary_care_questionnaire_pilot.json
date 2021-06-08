@@ -24,14 +24,6 @@
           {
             "system":"https://api.va.gov/services/fhir/v0/r4/NamingSystem/va-clinic-identifier",
             "code":"vha_605_13874"
-          },
-          {
-            "system":"https://api.va.gov/services/fhir/v0/r4/NamingSystem/va-clinic-identifier",
-            "code":"vha_516_16934"
-          },
-          {
-            "system":"https://api.va.gov/services/fhir/v0/r4/NamingSystem/va-clinic-identifier",
-            "code":"vha_516_3184"
           }
         ]
       }
