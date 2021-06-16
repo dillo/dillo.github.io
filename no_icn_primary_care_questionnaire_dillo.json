@@ -1,0 +1,52 @@
+{
+  "resourceType":"Questionnaire",
+  "meta":{
+    "tag":[
+      {
+        "system":"https://api.va.gov/services/pgd",
+        "code":"66a5960c-68ee-4689-88ae-4c7cccf7ca79",
+        "display":"VA GOV CLIPBOARD"
+      }
+    ]
+  },
+  "title":"A Questionnaire that was created without an ICN",
+  "status":"active",
+  "publisher":"clipboard.gov.va",
+  "useContext":[
+    {
+      "code":{
+        "system":"http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code":"venue"
+      },
+      "valueCodeableConcept":{
+        "coding":[
+          {
+            "system":"https://api.va.gov/services/fhir/v0/r4/NamingSystem/va-clinic-identifier",
+            "code":"vha_442_3049"
+          },
+          {
+            "system":"https://api.va.gov/services/fhir/v0/r4/NamingSystem/va-clinic-identifier",
+            "code":"vha_516_16934"
+          }
+        ]
+      }
+    }
+  ],
+  "item":[
+    {
+      "linkId":"01",
+      "text":"Is breakfast cereal really soup?",
+      "type":"string"
+    },
+    {
+      "linkId":"02",
+      "text":"Where is the chicken salad!?",
+      "type":"text"
+    },
+    {
+      "linkId":"03",
+      "text":"Mirror mirror on the wall. Who's the most concurrent of them all?",
+      "type":"text"
+    }
+  ]
+}
